@@ -1,0 +1,46 @@
+:root{
+    --branco-principal:white; 
+    --cinza-secundario: grey; 
+    --cor-botao: blue; 
+    --cor-fundo: black; 
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal) 
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+.principal {
+    background-image: url ("imagem/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contair;
+    align-items: center;
+    text-align: center; 
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.conteiner__botao {
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.botao_secundario {
+    background-color: blueviolet;
+    border: 2px solid var(--branco-principal);
+}
+
+.conteiner__imagem {
+    margim: 1 em 0 2 em 0;
+}
+.conteiner__caixa {
+    margim: 0 6 em;S
+}
